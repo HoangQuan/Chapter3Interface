@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/RLayout">
+    <TextView
+        android:id="@+id/txtComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:text="Comment:"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <EditText 
+        android:id="@+id/editTxtComment"
+        android:layout_width="fill_parent"
+        android:layout_height="170px"
+        android:textSize="18sp"
+        android:layout_alignLeft="@+id/txtComments"
+        android:layout_below="@+id/txtComments"
+        android:layout_centerHorizontal="true"/>
+    <Button 
+        android:id="@+id/btnSave"
+        android:layout_width="145px"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@+id/editTxtComment"
+        android:layout_alignLeft="@+id/editTxtComment"
+        />
+    <Button 
+        android:id="@+id/btnCancel"
+        android:layout_width="145px"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:layout_below="@+id/editTxtComment"
+        android:layout_alignRight="@+id/editTxtComment"
+        />
+    
+</RelativeLayout>

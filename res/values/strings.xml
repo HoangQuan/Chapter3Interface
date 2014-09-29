@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chapter3Interface</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="linear_layout">This is LinearLayout</string>
+    <string name="absolute_layout">This is AbsoluteLayout</string>
+    <string name="table_layout">This is TableLayout</string>
+    <string name="relative_layout">This is RelativeLayout</string>
+    <string name="frame_layout">This is FrameLayout</string>
+    <string name="scroll_layout">This is ScrollLayout</string>
+    <string name="choose_layout">Choose Layout to Display sameple</string>
+
+</resources>
